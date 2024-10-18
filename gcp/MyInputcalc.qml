@@ -8,7 +8,6 @@ Item {
         height: parent.height * 0.1
         color: "red"
         anchors {
-
             top: parent.top
             topMargin: parent.height * 0.2
             horizontalCenter: parent.horizontalCenter
