@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/gcp">D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Release/gcp</file>
+
+  </qresource>
+</RCC>

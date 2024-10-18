@@ -1,0 +1,13 @@
+--bare
+-I
+D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Release
+-I
+D:/Qt/6.7.2/llvm-mingw_64/./qml
+--resource
+D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Release/.qt/rcc/qmake_gcp.qrc
+--resource
+D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Release/.qt/rcc/appgcp_raw_qml_0.qrc
+D:/programming/gcp/gcp/Main.qml
+D:/programming/gcp/gcp/MyApptheme.qml
+--json
+D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Release/appgcp_qmllint.json

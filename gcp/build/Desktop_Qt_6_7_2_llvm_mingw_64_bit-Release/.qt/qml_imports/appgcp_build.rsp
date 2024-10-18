@@ -1,0 +1,14 @@
+-rootPath
+D:/programming/gcp/gcp
+-cmake-output
+-output-file
+D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Release/.qt/qml_imports/appgcp_build.cmake
+-importPath
+D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Release/gcp
+-importPath
+D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Release
+-importPath
+D:/Qt/6.7.2/llvm-mingw_64/./qml
+-qrcFiles
+D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Release/.qt/rcc/qmake_gcp.qrc
+D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Release/.qt/rcc/appgcp_raw_qml_0.qrc

@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b918047b6772b25e2ff7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gcp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-d7a452d592b1c27f619c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-5284a8b04a2cf18359b7.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-107a7e00ac2d0054511e.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-5520715549fbc27e3824.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp-Debug-9bcc256cedef3a72c85e.json",
+					"name" : "appgcp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_autogen-Debug-e7f870e2a206e74499f4.json",
+					"name" : "appgcp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_autogen_timestamp_deps-Debug-ead19d148f27d6440b70.json",
+					"name" : "appgcp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_qmlimportscan-Debug-639d13e7f60746e933af.json",
+					"name" : "appgcp_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_qmllint-Debug-c8031ea45857915babc4.json",
+					"name" : "appgcp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_qmllint_json-Debug-4f9838a6f024b9d46066.json",
+					"name" : "appgcp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_qmllint_module-Debug-7695860fd0f4453547fa.json",
+					"name" : "appgcp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_qmltyperegistration-Debug-ae9a92cf6f0cf8ba08a3.json",
+					"name" : "appgcp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_tooling-Debug-277a4bb0522d76c593c9.json",
+					"name" : "appgcp_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug",
+		"source" : "D:/programming/gcp/gcp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

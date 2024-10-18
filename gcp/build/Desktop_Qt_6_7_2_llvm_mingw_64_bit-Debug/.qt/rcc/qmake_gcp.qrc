@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/gcp">
+    <file alias="qmldir">D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/gcp/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/gcp/">
+    <file alias="Main.qml">D:/programming/gcp/gcp/Main.qml</file>
+    <file alias="MyApptheme.qml">D:/programming/gcp/gcp/MyApptheme.qml</file>
+  </qresource>
+</RCC>
+
