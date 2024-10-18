@@ -4,6 +4,7 @@
     <file alias="MyApptheme.qml">D:/programming/gcp/gcp/MyApptheme.qml</file>
     <file alias="MyInputcalc.qml">D:/programming/gcp/gcp/MyInputcalc.qml</file>
     <file alias="MyButtoncalc.qml">D:/programming/gcp/gcp/MyButtoncalc.qml</file>
+    <file alias="MyCalcbutton.qml">D:/programming/gcp/gcp/MyCalcbutton.qml</file>
   </qresource>
 </RCC>
 

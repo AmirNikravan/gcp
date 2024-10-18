@@ -17,10 +17,9 @@ Item {
         columnSpacing: buttoncalc.columnSpace
         columns: buttoncalc.columnCount
         Repeater {
-            Rectangle {
+            MyCalcbutton {
                 implicitWidth: buttoncalc.buttonwidth
                 implicitHeight: buttoncalc.buttonheight
-                color: 'white'
             }
             model: buttoncalc.rowCount * buttoncalc.columnCount
         }

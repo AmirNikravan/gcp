@@ -47,7 +47,7 @@ cmake_ninja_workdir = D$:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_
 #############################################
 # Order-only phony target for appgcp
 
-build cmake_object_order_depends_target_appgcp: phony || .qt/rcc/qrc_appgcp_raw_qml_0.cpp .qt/rcc/qrc_qmake_gcp.cpp .rcc/qmlcache/appgcp_Main_qml.cpp .rcc/qmlcache/appgcp_MyApptheme_qml.cpp .rcc/qmlcache/appgcp_MyButtoncalc_qml.cpp .rcc/qmlcache/appgcp_MyInputcalc_qml.cpp .rcc/qmlcache/appgcp_qmlcache_loader.cpp appgcp_autogen appgcp_autogen/mocs_compilation.cpp appgcp_autogen/timestamp appgcp_autogen_timestamp_deps appgcp_qmlimportscan appgcp_qmltyperegistrations.cpp appgcp_tooling gcp/appgcp.qmltypes meta_types/appgcp_json_file_list.txt meta_types/appgcp_json_file_list.txt.timestamp meta_types/qt6appgcp_debug_metatypes.json meta_types/qt6appgcp_debug_metatypes.json.gen
+build cmake_object_order_depends_target_appgcp: phony || .qt/rcc/qrc_appgcp_raw_qml_0.cpp .qt/rcc/qrc_qmake_gcp.cpp .rcc/qmlcache/appgcp_Main_qml.cpp .rcc/qmlcache/appgcp_MyApptheme_qml.cpp .rcc/qmlcache/appgcp_MyButtoncalc_qml.cpp .rcc/qmlcache/appgcp_MyCalcbutton_qml.cpp .rcc/qmlcache/appgcp_MyInputcalc_qml.cpp .rcc/qmlcache/appgcp_qmlcache_loader.cpp appgcp_autogen appgcp_autogen/mocs_compilation.cpp appgcp_autogen/timestamp appgcp_autogen_timestamp_deps appgcp_qmlimportscan appgcp_qmltyperegistrations.cpp appgcp_tooling gcp/appgcp.qmltypes meta_types/appgcp_json_file_list.txt meta_types/appgcp_json_file_list.txt.timestamp meta_types/qt6appgcp_debug_metatypes.json meta_types/qt6appgcp_debug_metatypes.json.gen
 
 build CMakeFiles/appgcp.dir/appgcp_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__appgcp_unscanned_Debug D$:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/appgcp_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appgcp
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
@@ -121,6 +121,14 @@ build CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/
   OBJECT_DIR = CMakeFiles\appgcp.dir
   OBJECT_FILE_DIR = CMakeFiles\appgcp.dir\build\Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug\.rcc\qmlcache
 
+build CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_MyCalcbutton_qml.cpp.obj: CXX_COMPILER__appgcp_unscanned_Debug D$:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_MyCalcbutton_qml.cpp || cmake_object_order_depends_target_appgcp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\appgcp.dir\build\Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appgcp_MyCalcbutton_qml.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fansi-escape-codes -fcolor-diagnostics -pthread
+  INCLUDES = -ID:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/appgcp_autogen/include -ID:/programming/gcp/gcp -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtQml/6.7.2 -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtQml/6.7.2/QtQml -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtCore/6.7.2 -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtCore/6.7.2/QtCore -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtCore -isystem D:/Qt/6.7.2/llvm-mingw_64/include -isystem D:/Qt/6.7.2/llvm-mingw_64/mkspecs/win32-clang-g++ -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtQmlBuiltins/6.7.2 -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtQmlBuiltins/6.7.2/QtQmlBuiltins -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtQmlBuiltins -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtQml -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtQmlIntegration -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtNetwork -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtQuick -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtGui -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtQmlModels -isystem D:/Qt/6.7.2/llvm-mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appgcp.dir
+  OBJECT_FILE_DIR = CMakeFiles\appgcp.dir\build\Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug\.rcc\qmlcache
+
 build CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appgcp_raw_qml_0.cpp.obj: CXX_COMPILER__appgcp_unscanned_Debug D$:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appgcp_raw_qml_0.cpp || cmake_object_order_depends_target_appgcp
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\appgcp.dir\build\Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug\.qt\rcc\qrc_appgcp_raw_qml_0.cpp.obj.d
@@ -137,7 +145,7 @@ build CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/r
 #############################################
 # Link the executable appgcp.exe
 
-build appgcp.exe: CXX_EXECUTABLE_LINKER__appgcp_Debug CMakeFiles/appgcp.dir/appgcp_autogen/mocs_compilation.cpp.obj CMakeFiles/appgcp.dir/main.cpp.obj CMakeFiles/appgcp.dir/appgcp_qmltyperegistrations.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_gcp.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_qmlcache_loader.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_Main_qml.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_MyApptheme_qml.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_MyInputcalc_qml.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_MyButtoncalc_qml.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appgcp_raw_qml_0.cpp.obj | D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Quick.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6QmlModels.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Qml.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6QmlBuiltins.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Network.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6OpenGL.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Gui.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Core.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6EntryPoint.a || appgcp_autogen appgcp_autogen_timestamp_deps appgcp_qmlimportscan appgcp_tooling
+build appgcp.exe: CXX_EXECUTABLE_LINKER__appgcp_Debug CMakeFiles/appgcp.dir/appgcp_autogen/mocs_compilation.cpp.obj CMakeFiles/appgcp.dir/main.cpp.obj CMakeFiles/appgcp.dir/appgcp_qmltyperegistrations.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_gcp.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_qmlcache_loader.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_Main_qml.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_MyApptheme_qml.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_MyInputcalc_qml.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_MyButtoncalc_qml.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_MyCalcbutton_qml.cpp.obj CMakeFiles/appgcp.dir/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appgcp_raw_qml_0.cpp.obj | D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Quick.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6QmlModels.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Qml.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6QmlBuiltins.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Network.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6OpenGL.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Gui.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Core.a D$:/Qt/6.7.2/llvm-mingw_64/lib/libQt6EntryPoint.a || appgcp_autogen appgcp_autogen_timestamp_deps appgcp_qmlimportscan appgcp_tooling
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Quick.a  D:/Qt/6.7.2/llvm-mingw_64/lib/libQt6QmlModels.a  D:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Qml.a  D:/Qt/6.7.2/llvm-mingw_64/lib/libQt6QmlBuiltins.a  D:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Network.a  -lws2_32  D:/Qt/6.7.2/llvm-mingw_64/lib/libQt6OpenGL.a  D:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Gui.a  D:/Qt/6.7.2/llvm-mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/Qt/6.7.2/llvm-mingw_64/lib/libQt6EntryPoint.a  -lshell32  -pthread  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -luser32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -200,7 +208,7 @@ build all_qmllint_module: phony appgcp_qmllint_module
 #############################################
 # Utility command for appgcp_tooling
 
-build appgcp_tooling: phony gcp/Main.qml gcp/MyApptheme.qml gcp/MyInputcalc.qml gcp/MyButtoncalc.qml
+build appgcp_tooling: phony gcp/Main.qml gcp/MyApptheme.qml gcp/MyInputcalc.qml gcp/MyButtoncalc.qml gcp/MyCalcbutton.qml
 
 
 #############################################
@@ -360,9 +368,18 @@ build .rcc/qmlcache/appgcp_MyButtoncalc_qml.cpp | ${cmake_ninja_workdir}.rcc/qml
 
 
 #############################################
+# Custom command for .rcc\qmlcache\appgcp_MyCalcbutton_qml.cpp
+
+build .rcc/qmlcache/appgcp_MyCalcbutton_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appgcp_MyCalcbutton_qml.cpp: CUSTOM_COMMAND D$:/Qt/6.7.2/llvm-mingw_64/bin/qmlcachegen.exe D$:/programming/gcp/gcp/MyCalcbutton.qml .qt/rcc/qmake_gcp.qrc .qt/rcc/appgcp_raw_qml_0.qrc gcp/appgcp.qmltypes gcp/qmldir || appgcp_autogen appgcp_autogen_timestamp_deps appgcp_qmlimportscan appgcp_tooling
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\programming\gcp\gcp\build\Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache && D:\programming\gcp\gcp\build\Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/Qt/6.7.2/llvm-mingw_64/./bin/qmlcachegen.exe --bare --resource-path /gcp/MyCalcbutton.qml -I D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug -I D:/Qt/6.7.2/llvm-mingw_64/./qml -i D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/gcp/qmldir --resource D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_gcp.qrc --resource D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/rcc/appgcp_raw_qml_0.qrc -o D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appgcp_MyCalcbutton_qml.cpp D:/programming/gcp/gcp/MyCalcbutton.qml"
+  DESC = Generating .rcc/qmlcache/appgcp_MyCalcbutton_qml.cpp
+  restat = 1
+
+
+#############################################
 # Custom command for .qt\rcc\qrc_appgcp_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appgcp_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appgcp_raw_qml_0.cpp: CUSTOM_COMMAND D$:/programming/gcp/gcp/Main.qml D$:/programming/gcp/gcp/MyApptheme.qml D$:/programming/gcp/gcp/MyInputcalc.qml D$:/programming/gcp/gcp/MyButtoncalc.qml .qt/rcc/appgcp_raw_qml_0.qrc D$:/Qt/6.7.2/llvm-mingw_64/./bin/rcc.exe || appgcp_autogen appgcp_autogen_timestamp_deps appgcp_qmlimportscan appgcp_tooling
+build .qt/rcc/qrc_appgcp_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appgcp_raw_qml_0.cpp: CUSTOM_COMMAND D$:/programming/gcp/gcp/Main.qml D$:/programming/gcp/gcp/MyApptheme.qml D$:/programming/gcp/gcp/MyInputcalc.qml D$:/programming/gcp/gcp/MyButtoncalc.qml D$:/programming/gcp/gcp/MyCalcbutton.qml .qt/rcc/appgcp_raw_qml_0.qrc D$:/Qt/6.7.2/llvm-mingw_64/./bin/rcc.exe || appgcp_autogen appgcp_autogen_timestamp_deps appgcp_qmlimportscan appgcp_tooling
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\programming\gcp\gcp\build\Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug && D:\Qt\6.7.2\llvm-mingw_64\.\bin\rcc.exe --output D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appgcp_raw_qml_0.cpp --name appgcp_raw_qml_0 D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/rcc/appgcp_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource appgcp_raw_qml_0
   restat = 1
@@ -397,21 +414,21 @@ build CMakeFiles/appgcp_qmltyperegistration | ${cmake_ninja_workdir}CMakeFiles/a
 #############################################
 # Custom command for CMakeFiles\appgcp_qmllint
 
-build CMakeFiles/appgcp_qmllint | ${cmake_ninja_workdir}CMakeFiles/appgcp_qmllint: CUSTOM_COMMAND D$:/Qt/6.7.2/llvm-mingw_64/bin/qmllint.exe D$:/programming/gcp/gcp/Main.qml D$:/programming/gcp/gcp/MyApptheme.qml D$:/programming/gcp/gcp/MyInputcalc.qml D$:/programming/gcp/gcp/MyButtoncalc.qml .rcc/qmllint/appgcp.rsp || all_qmltyperegistrations appgcp_qmltyperegistration
+build CMakeFiles/appgcp_qmllint | ${cmake_ninja_workdir}CMakeFiles/appgcp_qmllint: CUSTOM_COMMAND D$:/Qt/6.7.2/llvm-mingw_64/bin/qmllint.exe D$:/programming/gcp/gcp/Main.qml D$:/programming/gcp/gcp/MyApptheme.qml D$:/programming/gcp/gcp/MyInputcalc.qml D$:/programming/gcp/gcp/MyButtoncalc.qml D$:/programming/gcp/gcp/MyCalcbutton.qml .rcc/qmllint/appgcp.rsp || all_qmltyperegistrations appgcp_qmltyperegistration
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\programming\gcp\gcp && D:\programming\gcp\gcp\build\Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/Qt/6.7.2/llvm-mingw_64/bin/qmllint.exe @D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmllint/appgcp.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appgcp_qmllint_json
 
-build CMakeFiles/appgcp_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appgcp_qmllint_json: CUSTOM_COMMAND D$:/Qt/6.7.2/llvm-mingw_64/bin/qmllint.exe D$:/programming/gcp/gcp/Main.qml D$:/programming/gcp/gcp/MyApptheme.qml D$:/programming/gcp/gcp/MyInputcalc.qml D$:/programming/gcp/gcp/MyButtoncalc.qml .rcc/qmllint/appgcp_json.rsp || all_qmltyperegistrations appgcp_qmltyperegistration
+build CMakeFiles/appgcp_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appgcp_qmllint_json: CUSTOM_COMMAND D$:/Qt/6.7.2/llvm-mingw_64/bin/qmllint.exe D$:/programming/gcp/gcp/Main.qml D$:/programming/gcp/gcp/MyApptheme.qml D$:/programming/gcp/gcp/MyInputcalc.qml D$:/programming/gcp/gcp/MyButtoncalc.qml D$:/programming/gcp/gcp/MyCalcbutton.qml .rcc/qmllint/appgcp_json.rsp || all_qmltyperegistrations appgcp_qmltyperegistration
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\programming\gcp\gcp && D:\programming\gcp\gcp\build\Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/Qt/6.7.2/llvm-mingw_64/bin/qmllint.exe @D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmllint/appgcp_json.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appgcp_qmllint_module
 
-build CMakeFiles/appgcp_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appgcp_qmllint_module: CUSTOM_COMMAND D$:/Qt/6.7.2/llvm-mingw_64/bin/qmllint.exe D$:/programming/gcp/gcp/Main.qml D$:/programming/gcp/gcp/MyApptheme.qml D$:/programming/gcp/gcp/MyInputcalc.qml D$:/programming/gcp/gcp/MyButtoncalc.qml .rcc/qmllint/appgcp_module.rsp || all_qmltyperegistrations appgcp_qmltyperegistration
+build CMakeFiles/appgcp_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appgcp_qmllint_module: CUSTOM_COMMAND D$:/Qt/6.7.2/llvm-mingw_64/bin/qmllint.exe D$:/programming/gcp/gcp/Main.qml D$:/programming/gcp/gcp/MyApptheme.qml D$:/programming/gcp/gcp/MyInputcalc.qml D$:/programming/gcp/gcp/MyButtoncalc.qml D$:/programming/gcp/gcp/MyCalcbutton.qml .rcc/qmllint/appgcp_module.rsp || all_qmltyperegistrations appgcp_qmltyperegistration
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\programming\gcp\gcp && D:\programming\gcp\gcp\build\Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/Qt/6.7.2/llvm-mingw_64/bin/qmllint.exe @D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.rcc/qmllint/appgcp_module.rsp"
 
 
@@ -452,6 +469,15 @@ build gcp/MyButtoncalc.qml | ${cmake_ninja_workdir}gcp/MyButtoncalc.qml: CUSTOM_
 
 
 #############################################
+# Custom command for gcp\MyCalcbutton.qml
+
+build gcp/MyCalcbutton.qml | ${cmake_ninja_workdir}gcp/MyCalcbutton.qml: CUSTOM_COMMAND D$:/programming/gcp/gcp/MyCalcbutton.qml
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\programming\gcp\gcp && D:\Qt\Tools\CMake_64\bin\cmake.exe -E copy D:/programming/gcp/gcp/MyCalcbutton.qml D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/gcp/MyCalcbutton.qml"
+  DESC = Copying MyCalcbutton.qml to D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/gcp/MyCalcbutton.qml
+  restat = 1
+
+
+#############################################
 # Phony custom command for CMakeFiles\appgcp_qmlimportscan
 
 build CMakeFiles/appgcp_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/appgcp_qmlimportscan: phony .qt/qml_imports/appgcp_build.cmake
@@ -460,7 +486,7 @@ build CMakeFiles/appgcp_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/appgcp_
 #############################################
 # Custom command for .qt\qml_imports\appgcp_build.cmake
 
-build .qt/qml_imports/appgcp_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appgcp_build.cmake: CUSTOM_COMMAND D$:/Qt/6.7.2/llvm-mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_gcp.qrc .qt/rcc/appgcp_raw_qml_0.qrc D$:/programming/gcp/gcp/Main.qml D$:/programming/gcp/gcp/MyApptheme.qml D$:/programming/gcp/gcp/MyInputcalc.qml D$:/programming/gcp/gcp/MyButtoncalc.qml
+build .qt/qml_imports/appgcp_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appgcp_build.cmake: CUSTOM_COMMAND D$:/Qt/6.7.2/llvm-mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_gcp.qrc .qt/rcc/appgcp_raw_qml_0.qrc D$:/programming/gcp/gcp/Main.qml D$:/programming/gcp/gcp/MyApptheme.qml D$:/programming/gcp/gcp/MyInputcalc.qml D$:/programming/gcp/gcp/MyButtoncalc.qml D$:/programming/gcp/gcp/MyCalcbutton.qml
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\programming\gcp\gcp && D:\programming\gcp\gcp\build\Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/Qt/6.7.2/llvm-mingw_64/./bin/qmlimportscanner.exe @D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Debug/.qt/qml_imports/appgcp_build.rsp"
   DESC = Running qmlimportscanner for appgcp
   restat = 1

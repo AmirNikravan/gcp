@@ -20,6 +20,7 @@ qt_add_qml_module(appgcp
         QML_FILES MyApptheme.qml
         QML_FILES MyInputcalc.qml
         QML_FILES MyButtoncalc.qml
+        QML_FILES MyCalcbutton.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
