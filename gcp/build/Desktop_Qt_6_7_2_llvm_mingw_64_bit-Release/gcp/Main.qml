@@ -12,27 +12,11 @@ Window {
     }
     Item {
         anchors.fill: parent
-        Rectangle {
+        MyInputcalc {
             id: inputcalc
-            width: parent.width * 0.95
-            height: parent.height * 0.1
-            color: "red"
-            anchors {
-                top: parent.top
-                topMargin: parent.height * 0.2
-                horizontalCenter: parent.horizontalCenter
-            }
         }
-        Rectangle {
+        MyButtoncalc {
             id: buttoncalc
-            width: parent.width * 0.95
-            height: parent.height * 0.5
-            color: 'green'
-            anchors {
-                bottom: parent.bottom
-                bottomMargin: parent.height * 0.1
-                horizontalCenter: parent.horizontalCenter
-            }
         }
     }
 }
