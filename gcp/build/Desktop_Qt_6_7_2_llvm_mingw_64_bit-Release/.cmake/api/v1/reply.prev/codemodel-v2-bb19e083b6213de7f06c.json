@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-155f7d5d78fadcf80ee0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gcp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-d7a452d592b1c27f619c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-5284a8b04a2cf18359b7.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-107a7e00ac2d0054511e.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-5520715549fbc27e3824.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp-Release-cf021f4eee7b052f022a.json",
+					"name" : "appgcp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_autogen-Release-8eacb8eca7685cbf755d.json",
+					"name" : "appgcp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_autogen_timestamp_deps-Release-ead19d148f27d6440b70.json",
+					"name" : "appgcp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_qmlimportscan-Release-a7ff21b5d9a48e70655c.json",
+					"name" : "appgcp_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_qmllint-Release-45086c1b8c50a00a4d92.json",
+					"name" : "appgcp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_qmllint_json-Release-074e8f349087d22402e8.json",
+					"name" : "appgcp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_qmllint_module-Release-e7f3b793688977ff2429.json",
+					"name" : "appgcp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_qmltyperegistration-Release-84df0dc016ac8b06384c.json",
+					"name" : "appgcp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgcp_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgcp_tooling-Release-e54089e5e9b76e46f5d6.json",
+					"name" : "appgcp_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/programming/gcp/gcp/build/Desktop_Qt_6_7_2_llvm_mingw_64_bit-Release",
+		"source" : "D:/programming/gcp/gcp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

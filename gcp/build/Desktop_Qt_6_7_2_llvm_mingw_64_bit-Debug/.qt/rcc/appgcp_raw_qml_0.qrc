@@ -2,6 +2,8 @@
   <qresource prefix="/gcp/">
     <file alias="Main.qml">D:/programming/gcp/gcp/Main.qml</file>
     <file alias="MyApptheme.qml">D:/programming/gcp/gcp/MyApptheme.qml</file>
+    <file alias="MyInputcalc.qml">D:/programming/gcp/gcp/MyInputcalc.qml</file>
+    <file alias="MyButtoncalc.qml">D:/programming/gcp/gcp/MyButtoncalc.qml</file>
   </qresource>
 </RCC>
 

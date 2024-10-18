@@ -3,4 +3,6 @@ typeinfo appgcp.qmltypes
 prefer :/gcp/
 Main 1.0 Main.qml
 MyApptheme 1.0 MyApptheme.qml
+MyInputcalc 1.0 MyInputcalc.qml
+MyButtoncalc 1.0 MyButtoncalc.qml
 
