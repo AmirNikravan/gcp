@@ -3,9 +3,13 @@ import QtQuick.Layouts
 import QtQuick.Controls
 
 Item {
+    id: button
+    property string txt: '-'
+    property color buttoncolor: apptheme.buttoncolor
+    property color textcolor: apptheme.buttontextcolo
     Rectangle {
 
-        color: 'white'
+        color: button.buttoncolor
         radius: width * 0.175
         anchors.fill: parent
     }
@@ -14,9 +18,9 @@ Item {
         width: parent.width * 0.5
         height: width
         anchors.centerIn: parent
-        text: '0'
+        text: button.txt
         fontSizeMode: Text.Fit
-        color: apptheme.buttoncolor
+        color: button.textcolor
         minimumPixelSize: 1
         font {
             bold: true

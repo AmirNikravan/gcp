@@ -1,15 +1,17 @@
 import QtQuick 2.15
+import QtQuick.Controls
 
 Item {
     id: inputcalc
-    Rectangle {
+    property string txt: '0'
+    Label {
         anchors.fill: parent
-        // width: parent.width * 0.95
-        // height: parent.height * 0.1
-        color: "red"
-        // anchors {
-        //     horizontalCenter: parent.horizontalCenter
-        //     top: parent.top // Keep the top alignment as needed
-        // }
+        text: inputcalc.txt
+        color: 'white'
+        minimumPixelSize: 1
+        font.pixelSize: 600
+        fontSizeMode: Text.Fit
+        verticalAlignment: Text.AlignVCenter
+        horizontalAlignment: Text.AlignRight
     }
 }
